@@ -1,0 +1,17 @@
+sample_payload: 'sample_payload.json'
+EXPT_DIR : "./log"
+LOG_DIR : "./log"
+DATA_DIR : "./data"
+WEIGHTS_DIR : "./weights"
+exp_name: "yolov5-coco"
+weightsclear: True
+
+### TRAIN FUNCTION ARGS ###
+training_size: 3664
+onprem: True
+train_epochs: 10
+batch_size: 64
+lr: 0.1
+wtd: 0.0001
+momentum: 0.9
+use_cuda: True
